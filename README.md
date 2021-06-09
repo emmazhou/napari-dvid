@@ -1,6 +1,6 @@
 # napari-dvid
 
-[![License](https://img.shields.io/pypi/l/napari-dvid.svg?color=green)](https://github.com/emmazhou/napari-dvid/raw/master/LICENSE)
+[![License](https://img.shields.io/pypi/l/napari-dvid.svg)](https://github.com/emmazhou/napari-dvid/raw/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-dvid.svg?color=green)](https://pypi.org/project/napari-dvid)
 [![Python Version](https://img.shields.io/pypi/pyversions/napari-dvid.svg?color=green)](https://python.org)
 [![tests](https://github.com/emmazhou/napari-dvid/workflows/tests/badge.svg)](https://github.com/emmazhou/napari-dvid/actions)
