@@ -8,7 +8,7 @@
 
 DVID loader for napari, from a url
 
-----------------------------------
+---
 
 This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [cookiecutter-napari-plugin] template.
 
@@ -26,6 +26,16 @@ You can install `napari-dvid` via [pip]:
 
     pip install napari-dvid
 
+## Examples
+
+Once installed, run `napari --with napari-dvid` to get the plugin sidebar:
+
+![Screenshot](screenshot.png)
+
+Paste in a URL to a DVID volume and hit "Load" to load the volume! As an example, try:
+
+`https://emdata.janelia.org/api/node/ab6e610d4/grayscale/raw/0_1_2/256_256_256/7500_7000_4400`
+
 ## Contributing
 
 Contributions are very welcome. Tests can be run with [tox], please ensure
@@ -41,17 +51,17 @@ Distributed under the terms of the [MIT] license,
 If you encounter any problems, please [file an issue] along with a detailed description.
 
 [napari]: https://github.com/napari/napari
-[Cookiecutter]: https://github.com/audreyr/cookiecutter
+[cookiecutter]: https://github.com/audreyr/cookiecutter
 [@napari]: https://github.com/napari
-[MIT]: http://opensource.org/licenses/MIT
-[BSD-3]: http://opensource.org/licenses/BSD-3-Clause
-[GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
-[GNU LGPL v3.0]: http://www.gnu.org/licenses/lgpl-3.0.txt
-[Apache Software License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
-[Mozilla Public License 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
+[mit]: http://opensource.org/licenses/MIT
+[bsd-3]: http://opensource.org/licenses/BSD-3-Clause
+[gnu gpl v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
+[gnu lgpl v3.0]: http://www.gnu.org/licenses/lgpl-3.0.txt
+[apache software license 2.0]: http://www.apache.org/licenses/LICENSE-2.0
+[mozilla public license 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
 [cookiecutter-napari-plugin]: https://github.com/napari/cookiecutter-napari-plugin
 [file an issue]: https://github.com/emmazhou/napari-dvid/issues
 [napari]: https://github.com/napari/napari
 [tox]: https://tox.readthedocs.io/en/latest/
 [pip]: https://pypi.org/project/pip/
-[PyPI]: https://pypi.org/
+[pypi]: https://pypi.org/
